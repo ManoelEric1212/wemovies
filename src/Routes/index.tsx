@@ -10,7 +10,6 @@ function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/Cart" element={<Cart />} />
       <Route path="/Finish" element={<Finish />} />
-
     </Routes>
   );
 }
