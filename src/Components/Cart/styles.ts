@@ -109,10 +109,15 @@ export const SubtotalCell = styled.div`
   color: ${({ theme }) => theme.colors.primary};
 `;
 
-export const RemoveBtn = styled.img`
+export const RemoveBtn = styled.div`
   cursor: pointer;
-  height: 18px;
-  width: 18px;
+  width: 100%;
+  img {
+    height: 18px;
+    width: 18px;
+  }
+  display: flex;
+  justify-content: end;
 `;
 
 export const Footer = styled.div`

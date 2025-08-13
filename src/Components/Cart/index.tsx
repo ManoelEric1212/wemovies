@@ -178,9 +178,11 @@ export function CartComponent({
                 </SubtotalCell>
                 <RemoveBtn
                   className="remove"
-                  src={deleteIcon}
+
                   onClick={() => onRemove(movie.id)}
-                />
+                >
+                  <img src={deleteIcon} />
+                </RemoveBtn>
               </ProductsGrid>
             );
           })}
