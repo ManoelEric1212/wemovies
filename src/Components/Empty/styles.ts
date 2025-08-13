@@ -37,7 +37,7 @@ export const Button = styled.button`
   cursor: pointer;
   transition: background 0.3s ease;
   font-weight: ${({ theme }) => theme.font.weight.bold};
-  min-width: 170px;
+  min-width: 173px;
 
   &:hover {
     background-color: ${({ theme }) => theme.colors.buttonPrimaryHover};
