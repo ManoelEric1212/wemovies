@@ -5,15 +5,15 @@ interface ButtonProps {
 export const Card = styled.div`
   background: ${({ theme }) => theme.colors.white};
   border-radius: ${({ theme }) => theme.radius.medium};
-  padding: ${({ theme }) => theme.spacing(3)};
+  padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 `;
 export const Image = styled.img`
-  max-width: 180px;
-  max-height: 180px;
+  width: 147px;
+  height: 188px;
   object-fit: contain;
   margin-bottom: ${({ theme }) => theme.spacing(2)};
 `;

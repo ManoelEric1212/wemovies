@@ -7,8 +7,8 @@ export const Container = styled.div`
 `;
 
 export const ProductImage = styled.img`
-  width: 90px;
-  height: 90px;
+  width: 91px;
+  height: 114px;
   object-fit: contain;
   border-radius: ${({ theme }) => theme.radius.small};
 `;
