@@ -6,7 +6,7 @@ import { Container } from "./styles";
 
 
 
-export function Finish() {
+export function Error() {
   const navigate = useNavigate()
   const handleBack = () => {
     navigate('/')
