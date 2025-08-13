@@ -144,19 +144,23 @@ export const TotalText = styled.div`
   font-weight: ${({ theme }) => theme.font.weight.bold};
   font-size: ${({ theme }) => theme.font.sizes.large};
   color: ${({ theme }) => theme.colors.primary};
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
   span:first-child {
     color: ${({ theme }) => theme.colors.textSubTitle};
-    font-size: ${({ theme }) => theme.font.sizes.medium};
+    font-size: ${({ theme }) => theme.font.sizes.small};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 
     span:first-child {
-      color: ${({ theme }) => theme.colors.textSecondary};
-      font-size: ${({ theme }) => theme.font.sizes.large};
+      color: ${({ theme }) => theme.colors.textSubTitle};
+      font-size: ${({ theme }) => theme.font.sizes.small};
     }
 
     span:last-child {
