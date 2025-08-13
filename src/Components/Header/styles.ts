@@ -41,6 +41,10 @@ export const CartTitleText = styled.div`
   width: 100%;
   justify-content: left;
   font-weight: ${({ theme }) => theme.font.weight.medium};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    display: none;
+  }
 `;
 export const CartSubTitleText = styled.div`
   display: flex;
