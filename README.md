@@ -1,7 +1,7 @@
 # 🎬 WeFit Movies - Teste Técnico
 
 Este projeto foi desenvolvido como parte do **teste técnico** para a empresa **WeFit**.  
-Ele consiste em uma aplicação que consome a API de filmes e apresenta funcionalidades como listagem, detalhes e gerenciamento de dados.
+Ele consiste em uma aplicação que consome a API de filmes e apresenta funcionalidades como listagem e gerenciamento de compras.
 
 ---
 
